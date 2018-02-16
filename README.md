@@ -2,10 +2,10 @@
 
 These are just some random bits and bobs about Python.
 
-[JSON](#json)
-[Dictionaries](#dictionaries)
-[Logic Operations](#logic-operations)
-[Misc](#misc)
+- [JSON](#json)
+- [Dictionaries](#dictionaries)
+- [Logic Operations](#logic-operations)
+- [Misc](#misc)
 
 # JSON
 

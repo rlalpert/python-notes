@@ -2,10 +2,11 @@
 
 These are just some random bits and bobs about Python.
 
-- [JSON](#json)
-- [Dictionaries](#dictionaries)
-- [Logic Operations](#logic-operations)
-- [Misc](#misc)
+* [JSON](#json)
+* [Dictionaries](#dictionaries)
+* [Logic Operations](#logic-operations)
+* [Lists](#lists)
+* [Misc](#misc)
 
 # JSON
 
@@ -52,13 +53,45 @@ At that point, you can chain `.add(value)` to add values.
 
 The `is` operator compares the internal `id` *(retrieved with the built-in `id()` function)* of two values when checking for equivalency, whereas `==` compares the two values directly.
 
+# Lists
+
+##  Quick Notes
+
+### Making a unique copy of a list
+
+To make a unique copy of a list that doesn't refer to the original list object:
+
+```python
+my_list = [1, 2, 3, 4]
+new_list = my_list[:]
+```
+
+You can now `my_list.append(5)` and `my_list` will return `[1, 2, 3, 4, 5]`, but `new_list` will remain `[1, 2, 3, 4`.
+
+### Reversing the order of a list
+
+To reverse the order of a list:
+
+```python
+cat_jam = ['cat', 2, 3, 4, 5, 'jam']
+jam_cat = ascending_order[::-1]
+```
+
+`jam_cat` will now return `['jam', 5, 4, 3, 2, 'cat']`.
+
+Works on strings, as well.
+
 # Misc
 
 ## Quick Notes
 
 You can check all of the attributes and methods of any object in Python (and everything is an object) by calling `dir()` on it.
 
-Then, you can check to see if any of those items are callable by running `callable()` on it. 
+Then, you can check to see if any of those items are callable by running `callable()` on them. 
+
+---
+
+If you call the `dir()` function with no arguments, it will return a list of everything in the current namespace.
 
 ---
 

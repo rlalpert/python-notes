@@ -1,3 +1,7 @@
+# Python Notes
+
+These are just some random bits and bobs about Python.
+
 # JSON
 
 ## Links
@@ -36,3 +40,9 @@ To initialize the value of a dictionary key as a *set*, you must use:
 `dict_name.setdefault('key_name', set())`
 
 At that point, you can chain `.add(value)` to add values.
+
+# Logic Operations
+
+## Quick Notes
+
+The `is` operator compares the internal `id` *(retrieved with the built-in `id()` function)* of two values when checking for equivalency, whereas `==` compares the two values directly.

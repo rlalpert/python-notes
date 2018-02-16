@@ -2,6 +2,11 @@
 
 These are just some random bits and bobs about Python.
 
+[JSON](#json)
+[Dictionaries](#dictionaries)
+[Logic Operations](#logic-operations)
+[Misc](#misc)
+
 # JSON
 
 ## Links
@@ -46,3 +51,15 @@ At that point, you can chain `.add(value)` to add values.
 ## Quick Notes
 
 The `is` operator compares the internal `id` *(retrieved with the built-in `id()` function)* of two values when checking for equivalency, whereas `==` compares the two values directly.
+
+# Misc
+
+## Quick Notes
+
+You can check all of the attributes and methods of any object in Python (and everything is an object) by calling `dir()` on it.
+
+Then, you can check to see if any of those items are callable by running `callable()` on it. 
+
+---
+
+You can call `help()` on a function to get a quick description of it. hit `q` to quit out of the description window.

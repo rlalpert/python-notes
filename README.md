@@ -55,8 +55,6 @@ The `is` operator compares the internal `id` *(retrieved with the built-in `id()
 
 # Lists
 
-##  Quick Notes
-
 ### Making a unique copy of a list
 
 To make a unique copy of a list that doesn't refer to the original list object:
@@ -74,7 +72,7 @@ To reverse the order of a list:
 
 ```python
 cat_jam = ['cat', 2, 3, 4, 5, 'jam']
-jam_cat = ascending_order[::-1]
+jam_cat = cat_jam[::-1]
 ```
 
 `jam_cat` will now return `['jam', 5, 4, 3, 2, 'cat']`.

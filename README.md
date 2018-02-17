@@ -31,7 +31,7 @@ with open('data.json', 'r') as f:
 
 ---
 
-Writing *readable* JSON to a file:
+Writing JSON **that an actual human can read** to a file:
 
 ```python
 with open('target_file.json', 'w') as file:

@@ -29,6 +29,15 @@ with open('data.json', 'r') as f:
 
 *from [Python Cookbook, 3rd Edition](https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch06s02.html)*
 
+---
+
+Writing *readable* JSON to a file:
+
+```python
+with open('target_file.json', 'w') as file:
+    json.dump(data, file, sort_keys=True, indent=4)
+```
+
 # Dictionaries
 
 ## Quick Notes

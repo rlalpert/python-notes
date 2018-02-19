@@ -90,6 +90,15 @@ Works on strings, as well.
 
 # Misc
 
+### Transposing a matrix
+
+```python
+mommas_groovy_matrix = [[1, 2, 3], [4, 5, 6]]
+mommas_transposed_matrix = zip(*mommas_groovy_matrix)
+list(mommas_transposed_matrix)
+# returns [(1, 4), (2, 5), (3, 6)]
+```
+
 ## Quick Notes
 
 You can check all of the attributes and methods of any object in Python (and everything is an object) by calling `dir()` on it.

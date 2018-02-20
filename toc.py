@@ -1,3 +1,11 @@
+# toc.py
+# script for writing a table of contents for my python notes
+# SUPER IMPORTANT TODO: make it ignore anything between
+#   ```python
+#   this!!!! 
+#   ```
+#  so I can add comments to code blocks
+
 import itertools
 
 # create table of contents container

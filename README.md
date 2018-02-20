@@ -7,8 +7,6 @@ These are just some random bits and bobs about Python.
 * [JSON](#json)
 	* [Links](#links)
 	* [Quick Notes](#quick-notes)
-* [Writing JSON data](#writing-json-data)
-* [Reading data back](#reading-data-back)
 * [Dictionaries](#dictionaries)
 	* [Quick Notes](#quick-notes)
 * [Logic Operations](#logic-operations)

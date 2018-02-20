@@ -3,13 +3,22 @@
 These are just some random bits and bobs about Python.
 
 <!-- START TOC -->
-
-* [JSON](#json)
-* [Dictionaries](#dictionaries)
-* [Logic Operations](#logic-operations)
-* [Lists](#lists)
-* [Misc](#misc)
-
+* [Python Notes](#Python-Notes)
+* [JSON](#JSON)
+	* [Links](#Links)
+	* [Quick Notes](#Quick-Notes)
+* [Writing JSON data](#Writing-JSON-data)
+* [Reading data back](#Reading-data-back)
+* [Dictionaries](#Dictionaries)
+	* [Quick Notes](#Quick-Notes)
+* [Logic Operations](#Logic-Operations)
+	* [Quick Notes](#Quick-Notes)
+* [Lists](#Lists)
+	* [Making a unique copy of a list](#Making-a-unique-copy-of-a-list)
+	* [Reversing the order of a list](#Reversing-the-order-of-a-list)
+* [Misc](#Misc)
+	* [Transposing a matrix](#Transposing-a-matrix)
+	* [Quick Notes](#Quick-Notes)
 <!-- END TOC -->
 
 # JSON

@@ -51,6 +51,6 @@ lines.insert(start_toc_index+1, formatted_toc)
 lines = list(itertools.chain.from_iterable(lines))
 
 # write to README.md (test file first)
-with open('README_test.md', 'w') as file:
+with open('README.md', 'w') as file:
     for line in lines:
         file.write(line)

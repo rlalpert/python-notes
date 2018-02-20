@@ -28,17 +28,17 @@ These are just some random bits and bobs about Python.
 
 ## Quick Notes
 
+**Writing JSON data to a file:**
 ```python
-# Writing JSON data
 with open('data.json', 'w') as f:
      json.dump(data, f)
+```
 
-# Reading data back
+**Reading JSON data from a file:**
+```python
 with open('data.json', 'r') as f:
      data = json.load(f)
 ```
-
-*from [Python Cookbook, 3rd Edition](https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch06s02.html)*
 
 ---
 

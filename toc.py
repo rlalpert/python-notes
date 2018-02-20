@@ -28,8 +28,8 @@ for line in toc:
     tabs = ''
     line_start = '* '
     for c in line:
-        if c == "#" and not c[0]:
-            string += '\t'
+        if c == "#" and c.index != 0:
+            tabs += '\t'
     line = line.replace('#', '').strip()
     link_title = '[' + line + ']'
     link = '(#' + line.replace(' ', '-') + ')'

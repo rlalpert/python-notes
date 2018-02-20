@@ -84,7 +84,7 @@ my_list = [1, 2, 3, 4]
 new_list = my_list[:]
 ```
 
-You can now `my_list.append(5)` and `my_list` will return `[1, 2, 3, 4, 5]`, but `new_list` will remain `[1, 2, 3, 4`.
+You can now `my_list.append(5)` and `my_list` will return `[1, 2, 3, 4, 5]`, but `new_list` will remain `[1, 2, 3, 4]`.
 
 ### Reversing the order of a list
 

@@ -108,9 +108,9 @@ Works on strings, as well.
 ```python
 mommas_groovy_matrix = [[1, 2, 3], [4, 5, 6]]
 mommas_transposed_matrix = zip(*mommas_groovy_matrix)
-list(mommas_transposed_matrix)
+such_wow = list(mommas_transposed_matrix)
 ```
-`mommas_transposed_matrix` now returns `[(1, 4), (2, 5), (3, 6)]`
+`such_wow` now returns `[(1, 4), (2, 5), (3, 6)]`
 
 ## Quick Notes
 

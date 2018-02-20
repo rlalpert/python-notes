@@ -14,10 +14,10 @@ These are just some random bits and bobs about Python.
 * [Logic Operations](#Logic-Operations)
 	* [Quick Notes](#Quick-Notes)
 * [Lists](#Lists)
-		* [Making a unique copy of a list](#Making-a-unique-copy-of-a-list)
-		* [Reversing the order of a list](#Reversing-the-order-of-a-list)
+	* [Making a unique copy of a list](#Making-a-unique-copy-of-a-list)
+	* [Reversing the order of a list](#Reversing-the-order-of-a-list)
 * [Misc](#Misc)
-		* [Transposing a matrix](#Transposing-a-matrix)
+	* [Transposing a matrix](#Transposing-a-matrix)
 	* [Quick Notes](#Quick-Notes)
 <!-- END TOC -->
 

@@ -31,7 +31,11 @@ for line in toc:
         if c == "#":
             tab_count += 1
     tab_count = tab_count - 1
-    tabs = '\t' * tab_count
+    if tab_count >= 1:
+        # github doesn't like tabs deeper than 1, apparently
+        tabs = '\t'
+    else:
+        tabs = ''
     line = line.replace('#', '').strip()
     link_title = '[' + line + ']'
     link = '(#' + line.replace(' ', '-') + ')'

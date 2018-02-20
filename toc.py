@@ -32,7 +32,7 @@ for line in toc:
             string += '\t'
     line = line.replace('#', '').strip()
     link_title = '[' + line + ']'
-    link = '(' + line.replace(' ', '-') + ')'
+    link = '(#' + line.replace(' ', '-') + ')'
     line = tabs + line_start + link_title + link + '\n'
     formatted_toc.append(line)
 #   - bullet list

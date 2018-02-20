@@ -3,22 +3,22 @@
 These are just some random bits and bobs about Python.
 
 <!-- START TOC -->
-* [Python Notes](#Python-Notes)
-* [JSON](#JSON)
-	* [Links](#Links)
-	* [Quick Notes](#Quick-Notes)
-* [Writing JSON data](#Writing-JSON-data)
-* [Reading data back](#Reading-data-back)
-* [Dictionaries](#Dictionaries)
-	* [Quick Notes](#Quick-Notes)
-* [Logic Operations](#Logic-Operations)
-	* [Quick Notes](#Quick-Notes)
-* [Lists](#Lists)
-	* [Making a unique copy of a list](#Making-a-unique-copy-of-a-list)
-	* [Reversing the order of a list](#Reversing-the-order-of-a-list)
-* [Misc](#Misc)
-	* [Transposing a matrix](#Transposing-a-matrix)
-	* [Quick Notes](#Quick-Notes)
+* [Python Notes](#python-notes)
+* [JSON](#json)
+	* [Links](#links)
+	* [Quick Notes](#quick-notes)
+* [Writing JSON data](#writing-json-data)
+* [Reading data back](#reading-data-back)
+* [Dictionaries](#dictionaries)
+	* [Quick Notes](#quick-notes)
+* [Logic Operations](#logic-operations)
+	* [Quick Notes](#quick-notes)
+* [Lists](#lists)
+	* [Making a unique copy of a list](#making-a-unique-copy-of-a-list)
+	* [Reversing the order of a list](#reversing-the-order-of-a-list)
+* [Misc](#misc)
+	* [Transposing a matrix](#transposing-a-matrix)
+	* [Quick Notes](#quick-notes)
 <!-- END TOC -->
 
 # JSON

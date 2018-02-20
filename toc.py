@@ -38,14 +38,14 @@ for line in toc:
         tabs = ''
     line = line.replace('#', '').strip()
     link_title = '[' + line + ']'
-    link = '(#' + line.replace(' ', '-') + ')'
+    link = '(#' + line.replace(' ', '-').lower() + ')'
     line = tabs + line_start + link_title + link + '\n'
     formatted_toc.append(line)
 #   - bullet list
 
 # insert toc list between <!-- START TOC -->
-lines.insert(start_toc_index+1, formatted_toc) 
 #   and <!-- END TOC -->
+lines.insert(start_toc_index+1, formatted_toc) 
 
 # flatten into a single list
 lines = list(itertools.chain.from_iterable(lines))

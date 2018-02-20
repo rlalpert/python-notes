@@ -25,11 +25,13 @@ for line in lines:
 formatted_toc = []
 # format into github-friendly table of contents
 for line in toc:
-    tabs = ''
     line_start = '* '
+    tab_count = 0
     for c in line:
-        if c == "#" and c.index != 0:
-            tabs += '\t'
+        if c == "#":
+            tab_count += 1
+    tab_count = tab_count - 1
+    tabs = '\t' * tab_count
     line = line.replace('#', '').strip()
     link_title = '[' + line + ']'
     link = '(#' + line.replace(' ', '-') + ')'

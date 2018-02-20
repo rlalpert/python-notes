@@ -2,11 +2,15 @@
 
 These are just some random bits and bobs about Python.
 
+<!-- START TOC -->
+
 * [JSON](#json)
 * [Dictionaries](#dictionaries)
 * [Logic Operations](#logic-operations)
 * [Lists](#lists)
 * [Misc](#misc)
+
+<!-- END TOC -->
 
 # JSON
 

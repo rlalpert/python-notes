@@ -22,14 +22,23 @@ for line in lines:
     if line.startswith("#"):
         toc.append(line)
 
+formatted_toc = []
 # format into github-friendly table of contents
-# for line in toc:
-    # formatting here
-#   - 1 indent level per hash, starting at 0
+for line in toc:
+    tabs = ''
+    line_start = '* '
+    for c in line:
+        if c == "#" and not c[0]:
+            string += '\t'
+    line = line.replace('#', '').strip()
+    link_title = '[' + line + ']'
+    link = '(' + line.replace(' ', '-') + ')'
+    line = tabs + line_start + link_title + link + '\n'
+    formatted_toc.append(line)
 #   - bullet list
 
 # insert toc list between <!-- START TOC -->
-lines.insert(start_toc_index+1, toc) 
+lines.insert(start_toc_index+1, formatted_toc) 
 #   and <!-- END TOC -->
 
 # flatten into a single list

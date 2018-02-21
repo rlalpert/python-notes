@@ -14,7 +14,9 @@ These are just some random bits and bobs about Python.
 * [Lists](#lists)
 	* [Making a unique copy of a list](#making-a-unique-copy-of-a-list)
 	* [Reversing the order of a list](#reversing-the-order-of-a-list)
+	* [Flattening Lists](#flattening-lists)
 * [Misc](#misc)
+	* [Links](#links)
 	* [Transposing a matrix](#transposing-a-matrix)
 	* [Quick Notes](#quick-notes)
 <!-- END TOC -->
@@ -99,7 +101,41 @@ jam_cat = cat_jam[::-1]
 
 Works on strings, as well.
 
+### Flattening Lists
+
+```python
+>>> a = [[1, 2], [3, 4], [5, 6]]
+>>> list(itertools.chain.from_iterable(a))
+[1, 2, 3, 4, 5, 6]
+
+>>> sum(a, [])
+[1, 2, 3, 4, 5, 6]
+
+>>> [x for l in a for x in l]
+[1, 2, 3, 4, 5, 6]
+
+>>> a = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+>>> [x for l1 in a for l2 in l1 for x in l2]
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+>>> a = [1, 2, [3, 4], [[5, 6], [7, 8]]]
+>>> flatten = lambda x: [y for l in x for y in flatten(l)] if type(x) is list else [x]
+>>> flatten(a)
+[1, 2, 3, 4, 5, 6, 7, 8]
+```
+*from [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)*
+
 # Misc
+
+## Links
+**General:**
+* [r/python](https://www.reddit.com/r/Python/)
+
+**To Read/Watch**:
+
+* [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
+* [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
+* [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)
 
 ### Transposing a matrix
 

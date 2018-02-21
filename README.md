@@ -16,9 +16,9 @@ These are just some random bits and bobs about Python.
 	* [Reversing the order of a list](#reversing-the-order-of-a-list)
 	* [Flattening Lists](#flattening-lists)
 * [Misc](#misc)
-	* [Links](#links)
 	* [Transposing a matrix](#transposing-a-matrix)
 	* [Quick Notes](#quick-notes)
+* [Links](#links)
 <!-- END TOC -->
 
 # JSON
@@ -127,16 +127,6 @@ Works on strings, as well.
 
 # Misc
 
-## Links
-**General:**
-* [r/python](https://www.reddit.com/r/Python/)
-
-**To Read/Watch**:
-
-* [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
-* [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
-* [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)
-
 ### Transposing a matrix
 
 ```python
@@ -159,3 +149,13 @@ If you call the `dir()` function with no arguments, it will return a list of eve
 ---
 
 You can call `help()` on a function to get a quick description of it. hit `q` to quit out of the description window.
+
+# Links
+**General:**
+* [r/python](https://www.reddit.com/r/Python/)
+
+**To Read/Watch**:
+
+* [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
+* [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
+* [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)

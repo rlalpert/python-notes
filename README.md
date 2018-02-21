@@ -5,7 +5,7 @@ These are just some random bits and bobs about Python.
 <!-- START TOC -->
 * [Python Notes](#python-notes)
 * [JSON](#json)
-	* [Links](#links)
+	* [JSON Links](#json-links)
 	* [Quick Notes](#quick-notes)
 * [Dictionaries](#dictionaries)
 	* [Quick Notes](#quick-notes)
@@ -23,7 +23,7 @@ These are just some random bits and bobs about Python.
 
 # JSON
 
-## Links
+## JSON Links
 * [Official Docs](https://docs.python.org/3.6/library/json.html)
 * [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/scenarios/json/)
 * [Python Cookbook, 3rd Edition](https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch06s02.html) - Paywall

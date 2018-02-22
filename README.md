@@ -1,23 +1,16 @@
-# Python Notes
-
 These are just some random bits and bobs about Python.
 
 <!-- START TOC -->
-* [Python Notes](#python-notes)
 * [JSON](#json)
 	* [JSON Links](#json-links)
-	* [Quick Notes](#quick-notes)
 * [Dictionaries](#dictionaries)
-	* [Quick Notes](#quick-notes)
 * [Logic Operations](#logic-operations)
-	* [Quick Notes](#quick-notes)
 * [Lists](#lists)
 	* [Making a unique copy of a list](#making-a-unique-copy-of-a-list)
 	* [Reversing the order of a list](#reversing-the-order-of-a-list)
 	* [Flattening Lists](#flattening-lists)
 * [Misc](#misc)
 	* [Transposing a matrix](#transposing-a-matrix)
-	* [Quick Notes](#quick-notes)
 * [Links](#links)
 <!-- END TOC -->
 
@@ -28,7 +21,7 @@ These are just some random bits and bobs about Python.
 * [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/scenarios/json/)
 * [Python Cookbook, 3rd Edition](https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch06s02.html) - Paywall
 
-## Quick Notes
+**Quick Notes**
 
 **Writing JSON data to a file:**
 ```python
@@ -53,7 +46,7 @@ with open('target_file.json', 'w') as file:
 
 # Dictionaries
 
-## Quick Notes
+**Quick Notes**
 
 To initialize the value of a dictionary key as a list you can just use:
 
@@ -71,7 +64,7 @@ At that point, you can chain `.add(value)` to add values.
 
 # Logic Operations
 
-## Quick Notes
+**Quick Notes**
 
 The `is` operator compares the internal `id` *(retrieved with the built-in `id()` function)* of two values when checking for equivalency, whereas `==` compares the two values directly.
 
@@ -136,7 +129,7 @@ such_wow = list(mommas_transposed_matrix)
 ```
 `such_wow` now returns `[(1, 4), (2, 5), (3, 6)]`
 
-## Quick Notes
+**Quick Notes**
 
 You can check all of the attributes and methods of any object in Python (and everything is an object) by calling `dir()` on it.
 
@@ -159,3 +152,4 @@ You can call `help()` on a function to get a quick description of it. hit `q` to
 * [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
 * [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
 * [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)
+* [Cracking Codes with Python](http://inventwithpython.com/cracking/)

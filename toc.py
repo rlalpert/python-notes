@@ -1,6 +1,8 @@
 # toc.py
 # script for writing a table of contents for my python notes
-# SUPER IMPORTANT TODO: make it ignore anything between
+# 
+# 1) TODO: let quick notes be numbered
+# 2) SUPER IMPORTANT TODO: make it ignore anything between
 #   ```python
 #   this!!!! 
 #   ```

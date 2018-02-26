@@ -155,3 +155,4 @@ You can call `help()` on a function to get a quick description of it. hit `q` to
 * [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)
 * [Cracking Codes with Python](http://inventwithpython.com/cracking/)
 * [How To Train an Object Detection Classifier Using TensorFlow 1.5 (GPU) on Windows 10](https://www.youtube.com/watch?v=Rgpfk6eYxJA)
+* [Use Python to Load & Prepare Data Analytics](https://youtu.be/nO78ECRighw)

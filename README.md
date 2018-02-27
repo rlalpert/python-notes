@@ -152,8 +152,9 @@ You can call `help()` on a function to get a quick description of it. hit `q` to
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
 
-**To Read/Watch**:
+**To Read/Watch/Tutorials**:
 
+* [pythonprogramming.net](https://pythonprogramming.net/)
 * [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
 * [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
 * [What does it take to be an expert at Python? (Video)](https://www.youtube.com/watch?v=4m9ukNTD6-E)

@@ -146,6 +146,9 @@ You can call `help()` on a function to get a quick description of it. hit `q` to
 # Links
 **General:**
 * [r/python](https://www.reddit.com/r/Python/)
+
+**Resource Lists:**
+* [Awesome Python](https://github.com/vinta/awesome-python#admin-panels) - *"A curated list of awesome Python frameworks, libraries, software and resources."*
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
 

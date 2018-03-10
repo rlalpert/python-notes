@@ -154,6 +154,7 @@ You can call `help()` on a function to get a quick description of it. hit `q` to
 
 **To Read/Watch/Tutorials**:
 
+* [A Simple Step-by-Step Reportlab Tutorial](https://www.blog.pythonlibrary.org/2010/03/08/a-simple-step-by-step-reportlab-tutorial/)
 * [pythonprogramming.net](https://pythonprogramming.net/)
 * [Intro and Getting Stock Price Data - Python Programming](https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/)
 * [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)

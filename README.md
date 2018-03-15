@@ -143,6 +143,15 @@ If you call the `dir()` function with no arguments, it will return a list of eve
 
 You can call `help()` on a function to get a quick description of it. hit `q` to quit out of the description window.
 
+---
+
+Get the current time in ISO-8601 format: 
+
+```python
+import datetime
+datetime.datetime.utcnow().isoformat()
+```
+
 # Links
 **General:**
 * [r/python](https://www.reddit.com/r/Python/)

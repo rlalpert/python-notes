@@ -7,6 +7,7 @@
 #   this!!!! 
 #   ```
 #  so I can add comments to code blocks
+# 3) characters like '*' do not show up in links
 
 import itertools
 

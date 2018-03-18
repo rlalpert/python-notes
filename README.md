@@ -12,7 +12,7 @@ These are just some random bits and bobs about Python.
 * [Packages](#packages)
 	* [Package Links](#package-links)
 	* [Package Directory Structure](#package-directory-structure)
-	* [From Package Import *](#from-package-import-*)
+	* [From Package Import *](#from-package-import-)
 * [Misc](#misc)
 	* [Transposing a matrix](#transposing-a-matrix)
 * [Links](#links)

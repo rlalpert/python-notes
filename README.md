@@ -161,6 +161,9 @@ datetime.datetime.utcnow().isoformat()
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
 
+**Learning Now**
+* [Django](https://docs.djangoproject.com/)
+
 **To Read/Watch/Tutorials**:
 
 * [Python and JSON: Working with large datasets using Pandas](https://www.dataquest.io/blog/python-json-tutorial/) -- possible idea for deity project?

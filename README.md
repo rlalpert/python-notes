@@ -9,6 +9,10 @@ These are just some random bits and bobs about Python.
 	* [Making a unique copy of a list](#making-a-unique-copy-of-a-list)
 	* [Reversing the order of a list](#reversing-the-order-of-a-list)
 	* [Flattening Lists](#flattening-lists)
+* [Packages](#packages)
+	* [Package Links](#package-links)
+	* [Package Directory Structure](#package-directory-structure)
+	* [From Package Import *](#from-package-import-*)
 * [Misc](#misc)
 	* [Transposing a matrix](#transposing-a-matrix)
 * [Links](#links)
@@ -117,6 +121,34 @@ Works on strings, as well.
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 *from [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)*
+
+# Packages
+
+## Package Links
+* [Official Docs](https://docs.python.org/3/tutorial/modules.html#tut-packages)
+
+## Package Directory Structure
+
+`__init__.py` file (even blank) is required to make Python treat the directory as containing a package. Subfolders containing `__init__.py` files can be imported with dot notation:
+
+```
+flameskull/
+  __init__.py
+  badass/
+    __init__.py
+    purple_fire.py
+    metal_af.py
+  weak/
+    __init__.py
+    flame_is_unicorn_tears.py
+    enya.py
+```
+
+So you can `import flameskull.badass.metal_af` or `from flameskull.weak import enya` etc.
+
+## From Package Import *
+
+You can explicitly define what is imported with `from package import *` in the `__init__.py` file for that package by assigning them to a list named `__all__`
 
 # Misc
 

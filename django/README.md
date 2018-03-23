@@ -5,10 +5,13 @@
 ## New Project Setup
 
 **New Directory**
+
 `mkdir project`
 
 **Setup Virtual Environment**
+
 `python3 -m venv env`
 
 **Activate VE**
+
 `source env/bin/activate`

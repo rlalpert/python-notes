@@ -198,6 +198,7 @@ datetime.datetime.utcnow().isoformat()
 
 **To Read/Watch/Tutorials**:
 
+* [Making a Twitter Bot with Tweepy](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library)
 * [Python and JSON: Working with large datasets using Pandas](https://www.dataquest.io/blog/python-json-tutorial/) -- possible idea for deity project?
 * [A Simple Step-by-Step Reportlab Tutorial](https://www.blog.pythonlibrary.org/2010/03/08/a-simple-step-by-step-reportlab-tutorial/)
 * [pythonprogramming.net](https://pythonprogramming.net/)

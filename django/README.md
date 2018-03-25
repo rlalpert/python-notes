@@ -15,3 +15,11 @@
 **Activate VE**
 
 `source env/bin/activate`
+
+**Creating the Project**
+
+`django-admin startproject mysite`
+
+**Running the Development Server**
+
+`python manage.py runserver`

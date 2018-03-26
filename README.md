@@ -187,11 +187,13 @@ datetime.datetime.utcnow().isoformat()
 # Links
 **General:**
 * [r/python](https://www.reddit.com/r/Python/)
+* [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) & [related r/python thread](https://www.reddit.com/r/Python/comments/8715iw/comprehensive_python_cheatsheet/)
 
 **Resource Lists:**
 * [Awesome Python](https://github.com/vinta/awesome-python#admin-panels) - *"A curated list of awesome Python frameworks, libraries, software and resources."*
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
+
 
 **Learning Now**
 * [Django](https://docs.djangoproject.com/)

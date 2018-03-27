@@ -23,3 +23,7 @@
 **Running the Development Server**
 
 `python manage.py runserver`
+
+**Starting an app**
+
+`python manage.py startapp appname`

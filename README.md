@@ -194,6 +194,9 @@ datetime.datetime.utcnow().isoformat()
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
 
+**Practice**
+* [Practice Python](http://www.practicepython.org/)
+
 
 **Learning Now**
 * [Django](https://docs.djangoproject.com/)

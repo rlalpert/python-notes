@@ -196,6 +196,7 @@ datetime.datetime.utcnow().isoformat()
 * [Awesome Python](https://github.com/vinta/awesome-python#admin-panels) - *"A curated list of awesome Python frameworks, libraries, software and resources."*
 * [r/learnpython Wiki](https://www.reddit.com/r/learnpython/wiki/index)
 * [Full Stack Python - Resources List](https://www.fullstackpython.com/best-python-resources.html)
+* [Awesome Python Blogs](https://github.com/mikeyny/awesome-python-blogs)
 
 **Practice**
 * [Practice Python](http://www.practicepython.org/)

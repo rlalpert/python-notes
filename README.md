@@ -201,6 +201,9 @@ datetime.datetime.utcnow().isoformat()
 **Practice**
 * [Practice Python](http://www.practicepython.org/)
 
+**Videos**
+
+* [pyvideo.org](http://pyvideo.org/)
 
 **Learning Now**
 * [Django](https://docs.djangoproject.com/)
